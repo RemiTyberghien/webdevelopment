@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>opdracht 1</title>
+</head>
+<body>
+<h1>opdracht 1</h1>
+<h2>Zoek op wat lossy en lossless compression is en geef een beschrijving van beiden.</h2>
+<ul>
+    <li>Bij lossless compressie is het gedecodeerde bestand een exacte kopie van het originele bestand.
+        Lossless compressie werkt vergelijkbaar als ZIP/RAR bestanden, wanneer het bestand is ingepakt en
+        vervolgens weer wordt uitgepakt is het nagenoeg hetzelfde. Door het gebruik van slimme algoritmes,
+        verliest het bestand weinig tot geen kwaliteit.</li>
+    <li>Lossy compression van afbeeldingen is een proces dat een deel van de gegevens van jouw afbeelding
+        wegneemt. Hierdoor wordt de bestandsgrootte verkleind. Dit proces is onomkeerbaar, wat betekent
+        dat de weggenomen gegevens permanent verwijderd worden.</li>
+</ul>
+
+<br>
+
+<h2>Welke soort compression gebruiken de jpeg, png en gif formaten?</h2>
+
+<h3>1. JPEG (Joint Photographic Experts Group)</h3>
+<ul>
+    <li><strong>Soort compressie:</strong> Lossy compressie</li>
+    <li><strong>Details:</strong> JPEG gebruikt een lossy compressiealgoritme, wat betekent dat er permanent gegevensverlies optreedt tijdens het comprimeren. Het comprimeert afbeeldingen door minder belangrijke details te verwijderen die moeilijk door het menselijk oog op te merken zijn, zoals subtiele kleurnuances. Hierdoor kunnen zeer kleine bestanden worden gegenereerd, ideaal voor foto's en complexe afbeeldingen met veel kleurgradaties.</li>
+    <li><strong>Voordelen:</strong> Sterke compressie die resulteert in kleinere bestandsgroottes, geschikt voor foto's.</li>
+    <li><strong>Nadelen:</strong> Verlies van kwaliteit, vooral bij herhaaldelijk opslaan van de afbeelding.</li>
+</ul>
+
+<h3>2. PNG (Portable Network Graphics)</h3>
+<ul>
+    <li><strong>Soort compressie:</strong> Lossless compressie</li>
+    <li><strong>Details:</strong> PNG maakt gebruik van lossless compressie, wat betekent dat er geen gegevens verloren gaan bij het comprimeren van het bestand. PNG gebruikt technieken zoals Huffman-codering en filtering om herhaalde patronen efficiënter op te slaan. Dit maakt het een uitstekende keuze voor afbeeldingen met scherpe randen, zoals logo's, iconen en afbeeldingen met tekst.</li>
+    <li><strong>Voordelen:</strong> Geen verlies van beeldkwaliteit, ondersteuning voor transparantie (alfakanaal).</li>
+    <li><strong>Nadelen:</strong> Grotere bestandsgroottes in vergelijking met JPEG, vooral bij foto's of zeer gedetailleerde afbeeldingen.</li>
+</ul>
+
+<h3>3. GIF (Graphics Interchange Format)</h3>
+<ul>
+    <li><strong>Soort compressie:</strong> Lossless compressie, maar met kleurenbeperking</li>
+    <li><strong>Details:</strong> GIF gebruikt lossless compressie, net zoals PNG. Het gebruikt echter een kleurenpalet dat beperkt is tot 256 kleuren, wat betekent dat het niet geschikt is voor afbeeldingen met veel kleurovergangen, zoals foto's. Voor afbeeldingen met eenvoudige kleuren (zoals illustraties of animaties) is het wel effectief. GIF comprimeert door herhaalde patronen in de afbeelding te detecteren en te vereenvoudigen.</li>
+    <li><strong>Voordelen:</strong> Lossless compressie, ondersteuning voor eenvoudige animaties, veel gebruikt voor korte loops en eenvoudige afbeeldingen.</li>
+    <li><strong>Nadelen:</strong> Beperkt tot 256 kleuren, wat het ongeschikt maakt voor foto's of complexe beelden.</li>
+</ul>
+
+<br>
+
+<h2>Wat zou er gebeuren als je een afbeelding herhaaldelijk bewerkt en bewaart in een lossy formaat?</h2>
+<p>Als je een afbeelding herhaaldelijk bewerkt en opslaat in een lossy formaat, zoals JPEG, zal de kwaliteit van de afbeelding steeds verder achteruitgaan. Dit komt door de manier waarop lossy compressie werkt: telkens wanneer je de afbeelding opslaat, wordt er informatie verwijderd om de bestandsgrootte te verkleinen.</p>
+
+</body>
+</html>
