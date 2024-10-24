@@ -1,0 +1,44 @@
+h1, h2, h3
+{
+    font-family: arial sans-serif;
+}
+
+h1
+{
+    font-size: 1.8em;
+}
+
+h2
+{
+    font-size: 1.5em;
+}
+
+h3
+
+{
+    font-size: 1.4em;
+}
+
+p
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+
+.title1
+{
+    color: red;
+}
+
+.title2
+{
+    color: green;
+}
+
+.title3
+{
+    color: blue;
+}
+
+
+
