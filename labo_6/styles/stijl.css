@@ -1,0 +1,12 @@
+.menuitem > li {
+    display:inline-block;
+    width:150px;
+}
+.menuitem > li > a {
+    color:red;
+}
+
+#sizing-screenshot {
+    height: 370px;
+    width: 960px;
+}
