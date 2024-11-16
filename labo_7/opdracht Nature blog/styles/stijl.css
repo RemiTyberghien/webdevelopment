@@ -1,0 +1,49 @@
+body
+{
+    width: 95%;
+    margin: 10px auto;
+}
+
+#headerbovennav
+{
+    background-image: url(../images/header.jpg);
+    height: 100px;
+
+}
+
+#titelbevensteheader
+{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 200%;
+    margin-top: 10px;
+}
+
+nav
+{
+    background-color: #444444;
+}
+
+nav a
+{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+article
+{
+    background-color: lightgrey;
+    margin: 10px auto;
+    padding-left: 5px;
+}
+
+article > header > H1
+{
+    margin: 0 auto ;
+    padding-top: 16px;
+    text-decoration: underline;
+    font-size: 1.5em;
+
+}
