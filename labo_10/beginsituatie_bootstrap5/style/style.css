@@ -1,0 +1,10 @@
+.row>div {
+    background-color: #abb1b8;
+    min-height: 200px;
+    background-clip: content-box;
+}
+
+.row>div:nth-child(odd) {
+    background-color: #dbdfe5;
+}
+
