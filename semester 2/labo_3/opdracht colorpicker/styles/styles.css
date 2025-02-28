@@ -1,0 +1,26 @@
+.colorDemo {
+	width:100px;
+	height:100px;
+	border:1px solid black;
+	margin-left: 20px;
+}
+
+
+section
+{
+	display: inline-block;
+}
+
+label ::before
+{
+	content: '0';
+	position: absolute;
+	left: 10px;
+}
+
+label ::after
+{
+	content: '255';
+}
+
+
