@@ -1,0 +1,46 @@
+.colorDemo {
+	width:100px;
+	height:100px;
+	border:1px solid black;
+	margin-left: 20px;
+
+}
+
+section
+{
+	display: inline-block;
+}
+
+label ::before
+{
+	content: '0';
+	position: absolute;
+	left: 10px;
+}
+
+label ::after
+{
+	content: '255';
+}
+
+.save {
+	display: inline-block;
+	position: relative;
+	margin: 15px;
+}
+
+.colorSwatch {
+	width: 75px;
+	height: 75px;
+	border: 1px solid black;
+}
+
+.deleteButton {
+	background-color: white;
+	border: 1px solid black;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
