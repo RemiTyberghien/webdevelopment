@@ -4,7 +4,7 @@ const setup = () => {
 
 const appenddiv = () => {
     const p = document.createElement("p");
-    p.textContent = "Hello!";
+    p.textContent = "smooth";
     document.querySelector("#myDIV").appendChild(p);
 }
 window.addEventListener("load", setup);
