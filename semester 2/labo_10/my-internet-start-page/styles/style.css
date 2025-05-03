@@ -1,0 +1,60 @@
+.card
+{
+    border: 1px solid black;
+    background-color: lightskyblue;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+#click
+{
+
+    width: 100%;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+}
+
+#input
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.geschiedenis {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-button
+{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.YouTube
+{
+    background-color: rgb(255, 0, 0);
+}
+
+.Google
+{
+    background-color: rgb(66, 133, 244);
+}
+
+.X
+{
+    background-color: rgb(29, 161, 242);
+}
+
+.Instagram
+{
+    background-color: rgb(195, 42, 163);
+}
+
+
+

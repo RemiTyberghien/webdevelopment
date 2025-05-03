@@ -28,16 +28,15 @@ const saveSwatch = () => {
 };
 
 const setColorPickerFromSwatch = (event) => {
-    if (event.target.className === "swatch") {
-        let swatch = event.target;
+    let swatch = event.currentTarget;
 
-        document.getElementById("sldRed").value = swatch.getAttribute("data-red");
-        document.getElementById("sldGreen").value = swatch.getAttribute("data-green");
-        document.getElementById("sldBlue").value = swatch.getAttribute("data-blue");
+    document.getElementById("sldRed").value = swatch.getAttribute("data-red");
+    document.getElementById("sldGreen").value = swatch.getAttribute("data-green");
+    document.getElementById("sldBlue").value = swatch.getAttribute("data-blue");
 
-        update();
-    }
+    update();
 };
+
 
 
 const deleteSwatch = (event) => {
